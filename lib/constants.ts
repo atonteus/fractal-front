@@ -34,38 +34,34 @@ export const COOKIE = 'user-id';
 // strings containing your own privacy policy URL and copyright holder name
 export const LEGAL_URL = process.env.NEXT_PUBLIC_PRIVACY_POLICY_URL;
 export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
-
-export const CODE_OF_CONDUCT =
-  'https://www.notion.so/vercel/Code-of-Conduct-Example-7ddd8d0e9c354bb597a0faed87310a78';
-export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Live Stage',
-    route: '/stage/a'
+    name: 'Home',
+    route: '/'
   },
   {
-    name: 'Vercel Stage',
+    name: 'Portfolio',
     route: '/stage/c'
   },
   {
-    name: '100ms Stage',
+    name: 'Design',
     route: '/stage/m'
   },
   {
-    name: 'Schedule',
+    name: 'Cases',
     route: '/schedule'
   },
   {
-    name: 'Speakers',
+    name: 'Blog',
     route: '/speakers'
   },
   {
-    name: 'Expo',
+    name: 'Contatos',
     route: '/expo'
   },
   {
-    name: 'Jobs',
+    name: 'Sobre',
     route: '/jobs'
   }
 ];

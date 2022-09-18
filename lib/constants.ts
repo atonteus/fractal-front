@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+export const REPO = 'https://fractalbases.com/portfolio';
 export const SITE_URL = 'https://demo.vercel.events';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'vercel';
 export const BRAND_NAME = 'Espiral Design';
-export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
+export const SITE_NAME_MULTILINE = ['Espiral', 'Design'];
 export const SITE_NAME = 'Fractal Bases';
 export const META_DESCRIPTION =
   '.';

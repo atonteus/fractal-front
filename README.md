@@ -1,8 +1,8 @@
 [![Deploy with Vercel](https://vercel.com/button)]()
 
-# Virtual Events Starter Kit
+# 
 
-This virtual event starter kit was used to run [Next.js Conf 2020](https://nextjs.org/2020/conf), which had almost 40,000 live attendees. It includes the following features:
+This 'Front end Fractal' -Landing Page
 
 - Multiple stages - with the ability to add multiple sessions on each stage
 - Each stage can be configured as -

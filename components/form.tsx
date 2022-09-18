@@ -176,7 +176,7 @@ export default function Form({ sharePage }: Props) {
             onChange={e => setEmail(e.target.value)}
             onFocus={() => setFocused(true)}
             onBlur={() => setFocused(false)}
-            placeholder="Digite seu email"
+            placeholder="Digite seu email aqui"
             aria-label="Your email address"
             required
           />

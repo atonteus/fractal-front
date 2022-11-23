@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-export const REPO = 'https://espiral9.vercel.app/portfolio';
-export const SITE_URL = 'https://espiral9.vercel.app/';
+export const REPO = 'https://espiral9.tech/portfolio';
+export const SITE_URL = 'https://espiral9.tech/';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'vercel';
+export const TWITTER_USER_NAME = 'espiral9';
 export const BRAND_NAME = 'Espiral 9';
 export const SITE_NAME_MULTILINE = ['Espiral', '9'];
 export const SITE_NAME = 'Espiral 9';

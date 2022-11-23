@@ -28,7 +28,8 @@ const DemoButton = () => {
     <Dialog.Root>
       <Dialog.Overlay className={cn(styles['overlay'])} />
       <Dialog.Trigger asChild>
-        <button ref={ctaRef} id="cta-btn" className={cn(styles['cta-btn'])}>
+        <button>
+          <a href="https://espiral9.tech"></a>
           Contato
         </button>
       </Dialog.Trigger>

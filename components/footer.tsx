@@ -59,7 +59,7 @@ export default function Footer() {
           <div className={styles['footer-separator']} />
           <p className={styles['footer-paragraph']}>
             <a
-              href={CODE_OF_CONDUCT}
+              href={LEGAL_URL}
               className={styles['footer-link']}
               target="_blank"
               rel="noopener noreferrer"

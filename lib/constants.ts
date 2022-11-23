@@ -42,27 +42,27 @@ export const NAVIGATION = [
   },
   {
     name: 'Portfolio',
-    route: '/stage/s'
+    route: '/'
   },
   {
     name: 'Design',
-    route: '/stage/m'
+    route: '/'
   },
   {
     name: 'Cases',
-    route: '/schedule'
+    route: '/'
   },
   {
     name: 'Blog',
-    route: '/speakers'
+    route: '/'
   },
   {
     name: 'Contatos',
-    route: '/expo'
+    route: '/'
   },
   {
     name: 'Sobre',
-    route: '/jobs'
+    route: '/'
   }
 ];
 

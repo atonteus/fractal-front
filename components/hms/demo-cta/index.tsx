@@ -28,10 +28,9 @@ const DemoButton = () => {
     <Dialog.Root>
       <Dialog.Overlay className={cn(styles['overlay'])} />
       <Dialog.Trigger asChild>
-        
-          <a href="https://espiral9.tech"></a>
+        <button ref={ctaRef} id="cta-btn" className={cn(styles['cta-btn'])}>
           Contato
-        
+        </button>
       </Dialog.Trigger>
       <div id="cta-tooltip" className={cn(styles['tooltip'])}>
         <InfoIcon />

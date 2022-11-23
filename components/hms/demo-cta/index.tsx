@@ -36,7 +36,7 @@ const DemoButton = () => {
         <InfoIcon />
         Entre em contato para mais informações
       </div>
-      <Dialog.Content className={cn(styles['content'], 'dialog-animation')}>
+      {/* <Dialog.Content className={cn(styles['content'], 'dialog-animation')}> */}
         <Dialog.Close asChild className={cn(styles['close-btn'])}>
           <button>
             <CrossIcon />

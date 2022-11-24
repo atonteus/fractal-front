@@ -4,9 +4,8 @@ import Button from './Button';
 
 const DemoModal = () => {
   return (
-    <Button>
     <a href="https://espiral9.tech"></a>
-    </Button>
+    
   //   <Dialog.Root defaultOpen={true}>
   //     <Dialog.Overlay className="fixed inset-0" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }} />
   //     <Dialog.Content className="dialog-content bg-gray-700 md:w-[400px] w-[95%] rounded-lg dialog-animation">

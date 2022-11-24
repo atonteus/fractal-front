@@ -177,7 +177,7 @@ export default function Form({ sharePage }: Props) {
             onFocus={() => setFocused(true)}
             onBlur={() => setFocused(false)}
             placeholder=""
-            aria-label="Your email address"
+            aria-label="Entre em contato"
             required
           />
         </label>

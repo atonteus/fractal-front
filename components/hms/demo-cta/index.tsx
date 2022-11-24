@@ -42,7 +42,7 @@ const DemoButton = () => {
             <CrossIcon />
           </button>
         </Dialog.Close>
-        {/* <DemoModal /> */}
+        <DemoModal />
       </Dialog.Content>
     </Dialog.Root>
   );

@@ -186,7 +186,7 @@ export default function Form({ sharePage }: Props) {
           className={cn(styles.submit, styles.register, styles[formState])}
           disabled={formState === 'loading'}
         >
-          {formState === 'loading' ? <LoadingDots size={4} /> : <>-se</>}
+          {formState === 'loading' ? <LoadingDots size={4} /> : <>Contato</>}
         </button>
       </div>
       <Captcha ref={captchaRef} onVerify={handleRegister} />
